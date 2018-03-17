@@ -1,0 +1,27 @@
+{
+  "name": "doh-client",
+  "version": "1.0.0",
+  "description": "DNS over HTTPS test client.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pusateri/doh-client.git"
+  },
+  "keywords": [
+    "DNS",
+    "HTTPS",
+    "DOH"
+  ],
+  "author": "Tom Pusateri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pusateri/doh-client/issues"
+  },
+  "homepage": "https://github.com/pusateri/doh-client#readme",
+  "dependencies": {
+    "dns-packet": "^4.1.0"
+  }
+}
