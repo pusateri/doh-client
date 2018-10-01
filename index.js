@@ -31,7 +31,7 @@ const options = {
   path: '/experimental',
   method: 'POST',
   headers: {
-    'Content-Type': 'application/dns-udpwireformat',
+    'Content-Type': 'application/dns-message',
     'Content-Length': Buffer.byteLength(buf)
   }
 }
